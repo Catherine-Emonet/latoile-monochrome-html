@@ -2,7 +2,72 @@
     background-image: url("assets/bg-image-hero.png");
     background-size: cover;
     background-position: center;
-    text-align: center;
-    padding: 200px;
+    text-align: left;
+    padding: 100px;
     color: white;
+    h2 {
+        font-size: xx-large;
+    }
+}
+
+.s2 {
+    text-align: center;
+    padding: 1000px;
+    background-color: white;
+        h2 {
+            text-align: center;
+        }
+}
+
+.s3 {
+    background-image: url(assets/bg-image-2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+        h2 {
+            color: white;
+        }
+        .galerie-ligne {
+            display: flex;
+            align-items: left;
+            gap: 20px;
+        }
+
+        .galerie-ligne img {
+            width: 200px;
+            height: auto;
+            max-width: 100%;
+
+        }
+
+        a {
+            text-align: center;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            padding: 5px 30px;
+            margin: auto;
+            width: fit-content;
+            border-radius: 5px;
+            display: block;
+        }
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 50px;
+        /*image ne fonctionne pas*/
+        img {
+            size: 1cap;
+        }
+        h1 {
+            font-size: small;
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
 }
