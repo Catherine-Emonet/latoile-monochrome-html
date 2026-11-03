@@ -1,3 +1,25 @@
+* {
+    border: solid 3px rebeccapurple;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: gray;
+}
+
 .hero {
     background-image: url("assets/bg-image-hero.png");
     background-size: cover;
@@ -6,42 +28,72 @@
     padding: 100px;
     color: white;
     h2 {
-        font-size: xx-large;
+        font-size: 40px;
+    }
+    p {font-size: 12px;
     }
 }
 
-.s2 {
-    text-align: center;
-    padding: 1000px;
+section {
+    padding: 30px 150px;
+}
+
+.section2 {
     background-color: white;
-        h2 {
-            text-align: center;
+    text-align: left;
+    
+        .less_is_more {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 12px;
+            }
+            
+        }
+
+        .cartes {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            p {
+                font-size: 12px;
+            }
+            a {
+               background-color: gray;
+               color: white;
+               text-decoration: none;
+               padding: 2px;
+               border-radius: 5px; 
+               align-items: flex-end;
+            }
         }
 }
 
-.s3 {
+
+.section3 {
     background-image: url(assets/bg-image-2.png);
     background-size: cover;
     background-position: center;
-    padding: 100px;
         h2 {
             color: white;
         }
         .galerie-ligne {
             display: flex;
-            align-items: left;
-            gap: 20px;
+            justify-content: left;
+            gap: 60px;
+            padding: 20px 0;
         }
 
         .galerie-ligne img {
             width: 200px;
             height: auto;
             max-width: 100%;
-
         }
 
         a {
-            text-align: center;
+            display: flex;
+            justify-content: center;
             color: black;
             background-color: white;
             text-decoration: none;
@@ -51,7 +103,12 @@
             border-radius: 5px;
             display: block;
         }
-}
+    }
+
+    .section4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 footer {
     text-align: center;
