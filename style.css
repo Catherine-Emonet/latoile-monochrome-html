@@ -60,6 +60,7 @@ nav a {
             }
             p {
                 font-size: 12px;
+                margin-bottom: 20px;
             }
             
         }
@@ -92,8 +93,7 @@ nav a {
         }
         .galerie-ligne {
             display: flex;
-            justify-content: left;
-            gap: 60px;
+            justify-content: space-between;
             padding: 20px 0;
         }
 
