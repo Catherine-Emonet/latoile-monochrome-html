@@ -49,6 +49,7 @@ nav a {
 .section2 {
     background-color: white;
     text-align: left;
+    padding: 50px 0;
     
         .less_is_more {
             h2 {
@@ -113,6 +114,7 @@ nav a {
     }
 
 .section4 {
+    padding: 50px 0;
     p {
         font-size: 12px;
             }
@@ -141,7 +143,7 @@ footer {
     padding: 20px 50px;
         /*image ne fonctionne pas*/
         img {
-            width: 5%;
+            width: 3%;
         }
         h1 {
             font-size: small;
