@@ -15,6 +15,10 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
     img {
         height: 30px;
     }
@@ -40,7 +44,7 @@ nav a {
     color: white;
     padding: 150px;
     .texte_hero {
-        padding: 0 300px 0 0;
+        padding: 0 200px 0 0;
     }
     h2 {
         font-size: 40px;
