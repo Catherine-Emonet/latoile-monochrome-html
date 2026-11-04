@@ -1,5 +1,10 @@
 * {
-    border: solid 3px rebeccapurple;
+    border: solid 1px rebeccapurple;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
 }
 
 header {
@@ -28,17 +33,12 @@ nav a {
     background-size: cover;
     background-position: center;
     text-align: left;
-    padding: 100px;
     color: white;
     h2 {
         font-size: 40px;
     }
     p {font-size: 12px;
     }
-}
-
-section {
-    padding: 30px 150px;
 }
 
 .section2 {
@@ -55,7 +55,7 @@ section {
             
         }
 
-        .cartes {
+        .cartes1 {
             display: flex;
             justify-content: space-between;
             gap: 20px;
@@ -73,7 +73,6 @@ section {
         }
 }
 
-
 .section3 {
     background-image: url(assets/bg-image-2.png);
     background-size: cover;
@@ -89,12 +88,12 @@ section {
         }
 
         .galerie-ligne img {
-            width: 200px;
+            width: 100px;
             height: auto;
             max-width: 100%;
         }
 
-        a {
+        .a {
             display: flex;
             justify-content: center;
             color: black;
@@ -105,13 +104,32 @@ section {
             width: fit-content;
             border-radius: 5px;
             display: block;
+            font-size: x-small;
         }
     }
 
-    .section4 {
+.section4 {
+    p {
+        font-size: 12px;
+            }
+        }
+
+    .cartes_projets {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
+
+        .cartes2 {
+            max-width: 390px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            img {
+                width: 100%;
+            }
+        }
 
 footer {
     text-align: center;
@@ -119,7 +137,7 @@ footer {
     padding: 50px;
         /*image ne fonctionne pas*/
         img {
-            size: 1cap;
+            width: 5%;
         }
         h1 {
             font-size: small;
